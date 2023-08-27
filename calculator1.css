@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    background-color: cyan;
+    position: relative;
+    font-family:'Roboto',sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    display: block;
+    position: absolute;
+    width:320px;
+    height:520px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,5%);
+    border-radius: 10px;
+    background-color:black;
+    box-shadow: 5px 2px 5px black;
+
+}
+.value{
+    position:relative;
+    margin:20px 0 20px 13px;
+    height:85px;
+    width:285px;
+    font-size: 28px;
+    border-radius:15px;
+    box-shadow: 5px 2px 5px grey inset;
+}
+.row1{
+    position:relative;
+    margin:0 0 5px 13px;
+}
+.row2{
+    position:relative;
+    margin:0 0 5px 13px;
+}
+.row3{
+    position:relative;
+    margin:0 0 5px 13px;
+}
+.row4{
+    position:absolute;
+    margin:0px 0 15px 13px;
+}
+.row5{
+    position:relative;
+    margin:80px 0 5px 13px;
+}
+.button{
+    background-color: grey;
+    color:white;
+    height:70px;
+    width:70px;
+    border-color: grey;
+    border-radius: 5px;
+    border:none;
+    font-size: 18px;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px grey, 2px 2px 2px grey inset;
+}
+.buttonC{
+    background-color: maroon;
+    color:white;
+    height:70px;
+    width:145px;
+    border-color: maroon;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px grey;
+}
+.buttonp{
+    position:absolute;
+    display:block;
+    background-color: grey;
+    margin: -75px 0 5px 235px;
+    color:white;
+    height:145px;
+    width:70px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px grey, 2px 2px 2px grey inset;
+}
+@media screen and (max-width: 756px){
+    .container{
+        transform: translate(-50%,50%);
+    }
+}
